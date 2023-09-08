@@ -24,6 +24,19 @@ cd laravel-api-jwt
 
 >Note: jangan lupa untuk mengatur database sebelum menjalankan aplikasi.
 
+## :trident: Route List
+|  method  |        URI        |
+|----------|-------------------|
+| post     | /api/signup       |
+| post     | /api/signin       |
+| get      | /api/getuser      | 
+| get      | /api/books        |
+| post     | /api/book         |
+| get      | /api/book/{book}  | 
+| put      | /api/book/{book}  |
+| delete   | /api/book/{book}  |
+| get      | /api/signout      | 
+
 ## :eyes: Preview
 
 **post `/api/signup`**
@@ -41,13 +54,13 @@ cd laravel-api-jwt
 **post `/api/book`**
 ![alt text](https://raw.githubusercontent.com/kunkoder/laravel-api-jwt/main/images/post-book.png)
 
-**get `/api/book`**
+**get `/api/book/{book}`**
 ![alt text](https://raw.githubusercontent.com/kunkoder/laravel-api-jwt/main/images/get-book.png)
 
-**put `/api/book`**
+**put `/api/book/{book}`**
 ![alt text](https://raw.githubusercontent.com/kunkoder/laravel-api-jwt/main/images/put-book.png)
 
-**delete `/api/book`**
+**delete `/api/book/{book}`**
 ![alt text](https://raw.githubusercontent.com/kunkoder/laravel-api-jwt/main/images/delete-book.png)
 
 **get `/api/signout`**
