@@ -25,7 +25,7 @@ cd laravel-api-jwt
 >Note: jangan lupa untuk mengatur database sebelum menjalankan aplikasi.
 
 ## :trident: Route List
-|  method  |        URI        |
+|  Method  |        URI        |
 |----------|-------------------|
 | post     | /api/signup       |
 | post     | /api/signin       |
