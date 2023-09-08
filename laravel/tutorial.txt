@@ -1,0 +1,1 @@
+https://www.avyatech.com/rest-api-with-laravel-8-using-jwt-token/
